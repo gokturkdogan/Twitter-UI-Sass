@@ -1,5 +1,6 @@
 //sideBarButtons
 .--sideBarBtn{
+    cursor: pointer;
     background-color: $sideBarButton;
     color: $sideBarIcons;
     padding: 15px 80px;
@@ -8,4 +9,13 @@
     &:hover{
         background-color: $sideBarButtonHover;
     }
+}
+
+.--postTweetBtn{
+    cursor: pointer;
+    background-color: $sideBarButton;
+    color: $sideBarIcons;
+    padding: 7px 12px;
+    border-radius: 20px;
+    border: none;
 }

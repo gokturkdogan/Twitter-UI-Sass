@@ -6,8 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/59fe93ed09.js" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/scss/main.css">
     <title>Twitter UI</title>
+
+    <style>
+        select {
+            font-family: 'Roboto', 'FontAwesome'
+        }
+    </style>
 </head>
 
 <body>
@@ -62,6 +74,40 @@
                     <span class="--sideBarFooterUserName">@EgoistPenguen</span>
                 </div>
                 <i class="fa-solid fa-ellipsis --sideBarFooterIcon"></i>
+            </div>
+        </div>
+
+        <div id="post" class="postTweet">
+            <div class="postTweet__image">
+                <div class="postTweet__close">
+                    <i class="fa-solid fa-x --postTweetCloseIcon"></i>
+                </div>
+                <img class="--postTweetImage" src="assets/images/userPhoto.jpg" alt="">
+            </div>
+            <div class="postTweet__content">
+                <div class="postTweet__selectPrivate">
+                    <input class="--sendTweet" type="text" placeholder="Neler Oluyor?">
+                </div>
+                <div class="postTweet__footer">
+                    <div class="postTweet__select">
+                    <select class="--postTweetSelect">
+                        <option>&#xf57c; Herkes Yanıtlayabilir</option>
+                        <option>&#xf4fc; Takip ettiğin kişiler yanıtlayabilir</option>
+                        <option>&#xf1fa; Yalnızca bahsettiğin kişiler yanıtlayabilir</option>
+                    </select>
+                </div>
+                    <div class="postTweet__send">
+                        <div class="postTweet__uploads">
+                            <i class="fa-solid fa-image --postTweetIcon"></i>
+                            <i class="fa-solid fa-camera-rotate --postTweetIcon"></i>
+                            <i class="fa-solid fa-chart-bar --postTweetIcon"></i>
+                            <i class="fa-solid fa-face-smile --postTweetIcon"></i>
+                            <i class="fa-solid fa-calendar --postTweetIcon"></i>
+                            <i class="fa-solid fa-location-dot --postTweetIcon"></i>
+                        </div>
+                        <button class="--postTweetBtn">Tweetle</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

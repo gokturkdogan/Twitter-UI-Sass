@@ -1,0 +1,18 @@
+.--sendTweet{
+    width: 100%;
+    background: none;
+    border: none;
+    &:focus{
+        outline: none;
+    }
+}
+
+.--postTweetSelect{
+    color: $sideBarButton;
+    -webkit-appearance: none;
+    background: none;
+    border: none;
+    &:focus{
+        outline: none;
+    }
+}

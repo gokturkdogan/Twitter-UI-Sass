@@ -1,18 +1,28 @@
-.--sendTweet{
+.--sendTweet {
     width: 100%;
     background: none;
     border: none;
-    &:focus{
+    padding-top: 5px;
+    color: $sideBarUserInfoSpan;
+    font-size: 20px;
+
+    &:focus {
         outline: none;
+    }
+
+    &::placeholder {
+        color: $sideBarUserInfoSpan;
+        font-size: 20px;
     }
 }
 
-.--postTweetSelect{
+.--postTweetSelect {
     color: $sideBarButton;
     -webkit-appearance: none;
     background: none;
     border: none;
-    &:focus{
+
+    &:focus {
         outline: none;
     }
 }

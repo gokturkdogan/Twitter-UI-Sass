@@ -22,9 +22,9 @@
     </style>
 </head>
 
-<body>
+<body id="bluur">
     <div class="container">
-        <div class="sideBar">
+        <div id="bluur" class="sideBar">
             <div class="sideBar__header">
                 <i class="fa-brands fa-twitter --sideBarHeaderIcon"></i>
             </div>
@@ -64,7 +64,7 @@
                     </div>
                 </div>
                 <div class="sideBar__tweet">
-                    <button class="--sideBarBtn">Tweetle</button>
+                    <button onclick="myTweetFunction()" class="--sideBarBtn">Tweetle</button>
                 </div>
             </div>
             <div class="sideBar__footer">
@@ -78,39 +78,44 @@
         </div>
 
         <div id="post" class="postTweet">
-            <div class="postTweet__image">
-                <div class="postTweet__close">
-                    <i class="fa-solid fa-x --postTweetCloseIcon"></i>
+            <div class="postTweet__div">
+                <div class="postTweet__image">
+                    <div class="postTweet__close">
+                        <i class="fa-solid fa-x --postTweetCloseIcon"></i>
+                    </div>
+                    <img class="--postTweetImage" src="assets/images/userPhoto.jpg" alt="">
                 </div>
-                <img class="--postTweetImage" src="assets/images/userPhoto.jpg" alt="">
-            </div>
-            <div class="postTweet__content">
-                <div class="postTweet__selectPrivate">
-                    <input class="--sendTweet" type="text" placeholder="Neler Oluyor?">
-                </div>
-                <div class="postTweet__footer">
-                    <div class="postTweet__select">
-                    <select class="--postTweetSelect">
-                        <option>&#xf57c; Herkes Yanıtlayabilir</option>
-                        <option>&#xf4fc; Takip ettiğin kişiler yanıtlayabilir</option>
-                        <option>&#xf1fa; Yalnızca bahsettiğin kişiler yanıtlayabilir</option>
-                    </select>
-                </div>
-                    <div class="postTweet__send">
-                        <div class="postTweet__uploads">
-                            <i class="fa-solid fa-image --postTweetIcon"></i>
-                            <i class="fa-solid fa-camera-rotate --postTweetIcon"></i>
-                            <i class="fa-solid fa-chart-bar --postTweetIcon"></i>
-                            <i class="fa-solid fa-face-smile --postTweetIcon"></i>
-                            <i class="fa-solid fa-calendar --postTweetIcon"></i>
-                            <i class="fa-solid fa-location-dot --postTweetIcon"></i>
+                <div class="postTweet__content">
+                    <div class="postTweet__selectPrivate">
+                        <input class="--sendTweet" type="text" placeholder="Neler Oluyor?">
+                    </div>
+                    <div class="postTweet__footer">
+                        <div class="postTweet__select">
+                            <select class="--postTweetSelect">
+                                <option>&#xf57c; Herkes Yanıtlayabilir</option>
+                                <option>&#xf4fc; Takip ettiğin kişiler yanıtlayabilir</option>
+                                <option>&#xf1fa; Yalnızca bahsettiğin kişiler yanıtlayabilir</option>
+                            </select>
                         </div>
-                        <button class="--postTweetBtn">Tweetle</button>
+                        <div class="postTweet__send">
+                            <div class="postTweet__uploads">
+                                <i class="fa-solid fa-image --postTweetIcon"></i>
+                                <i class="fa-solid fa-camera-rotate --postTweetIcon"></i>
+                                <i class="fa-solid fa-chart-bar --postTweetIcon"></i>
+                                <i class="fa-solid fa-face-smile --postTweetIcon"></i>
+                                <i class="fa-solid fa-calendar --postTweetIcon"></i>
+                                <i class="fa-solid fa-location-dot --postTweetIcon"></i>
+                            </div>
+                            <button class="--postTweetBtn">Tweetle</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+    <script src="assets/js/postTweet.js"></script>
 </body>
 
 </html>

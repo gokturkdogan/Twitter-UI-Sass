@@ -1,20 +1,23 @@
 .postTweet{
+    background-color: $mainBg;
+    display: none;
     position: absolute;
     left: 460px;
     top: 50px;
-    background-color: grey;
     width: 600px;
     height: 250px;
     border-radius: 15px;
     padding: 20px;
-    display: flex;
+    &__div{
+        display: flex;
+        justify-content: row;
+    }
     &__close{
 
     }
     &__image{
         display: flex;
         flex-direction: column;
-        background-color: blue
     }   
     &__selectPrivate{
         padding-top: 50px;
@@ -22,10 +25,10 @@
     &__content{
         padding-left: 10px;
         width: 100%;
-        background-color: red;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        height: 255px;
     }
     &__footer{
 
@@ -41,6 +44,8 @@
         justify-content: space-between;
     }
     &__uploads{
-        
+        width: 35%;
+        display: flex;
+        justify-content: space-between;
     }
 }

@@ -1,0 +1,14 @@
+@import 'variables/colors';
+@import 'layout/sideBar';
+@import 'components/icons';
+@import 'components/spans';
+@import 'components/buttons';
+@import 'components/images';
+
+body{
+    padding: 0;
+    background-color: $mainBg;
+    .container{
+        margin: 0px 150px;
+    }
+}

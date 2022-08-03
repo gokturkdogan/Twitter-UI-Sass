@@ -1,0 +1,84 @@
+.sideBar {
+  border-right: 1px solid #71767B;
+  width: 20%;
+}
+.sideBar__header {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 20px;
+  height: 50px;
+}
+.sideBar__menu {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70%;
+  height: 450px;
+}
+.sideBar__footer {
+  padding-right: 10px;
+  margin-top: 60px;
+  display: flex;
+}
+.sideBar__userInfo {
+  margin-left: 10px;
+}
+
+.--sideBarHeaderIcon {
+  color: #E7E9EA;
+  font-size: 30px;
+}
+
+.--sideBarMenuIcon {
+  color: #E7E9EA;
+  font-size: 25px;
+}
+
+.--sideBarFooterIcon {
+  margin-top: 5px;
+  margin-right: 10px;
+  color: #E7E9EA;
+  font-size: 15px;
+}
+
+.--sideBarMenuSpan {
+  color: #E7E9EA;
+  margin-left: 20px;
+}
+
+.--sideBarFooterUser {
+  color: #E7E9EA;
+}
+
+.--sideBarFooterUserName {
+  color: #71767B;
+}
+
+.--sideBarBtn {
+  background-color: #1D9BF0;
+  color: #E7E9EA;
+  padding: 15px 80px;
+  border-radius: 25px;
+  transition: 0.2s;
+}
+.--sideBarBtn:hover {
+  background-color: #1A8CD8;
+}
+
+.--footerImage {
+  width: 40px;
+  height: 40x;
+  border-radius: 55px;
+}
+
+body {
+  padding: 0;
+  background-color: #000000;
+}
+body .container {
+  margin: 0px 150px;
+}/*# sourceMappingURL=main.css.map */

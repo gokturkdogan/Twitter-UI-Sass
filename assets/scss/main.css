@@ -74,6 +74,67 @@
   justify-content: space-between;
 }
 
+.tweets {
+  width: 50%;
+  padding: 0px 10px;
+}
+.tweets__header {
+  display: flex;
+  justify-content: space-between;
+  color: #E7E9EA;
+}
+.tweets__sendTweet {
+  border-bottom: 1px solid #71767B;
+  padding-bottom: 10px;
+  height: 100px;
+  width: 100%;
+  display: flex;
+}
+.tweets__sendTweetContent {
+  margin-left: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tweets__contentBottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tweets__contentIcons {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+  width: 40%;
+}
+.tweets__item {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-top: 10px;
+  border-bottom: 1px solid #71767B;
+  padding-bottom: 10px;
+}
+.tweets__leftContent {
+  display: flex;
+}
+.tweets__tweetContent {
+  margin-left: 15px;
+  width: 100%;
+}
+.tweets__senderInfo {
+  width: 100%;
+}
+.tweets__senderContent {
+  width: 100%;
+}
+.tweets__senderIcons {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 .--sideBarHeaderIcon {
   color: #E7E9EA;
   font-size: 30px;
@@ -99,6 +160,14 @@
   color: #1D9BF0;
 }
 
+.--tweetsHeaderIcon {
+  margin-top: 20px;
+}
+
+.--tweetsReactionIcon {
+  color: #71767B;
+}
+
 .--sideBarMenuSpan {
   color: #E7E9EA;
   margin-left: 20px;
@@ -112,12 +181,31 @@
   color: #71767B;
 }
 
+.--tweetsSenderName {
+  color: #E7E9EA;
+  font-weight: 600;
+}
+
+.--tweetsSenderUserName {
+  color: #71767B;
+}
+
+.--tweetsSenderTime {
+  color: #71767B;
+}
+
+.--tweetsSenderContent {
+  color: #E7E9EA;
+}
+
 .--sideBarBtn {
   cursor: pointer;
   background-color: #1D9BF0;
   color: #E7E9EA;
   padding: 15px 80px;
   border-radius: 25px;
+  font-size: 15px;
+  font-weight: 600;
   transition: 0.2s;
 }
 .--sideBarBtn:hover {
@@ -128,9 +216,12 @@
   cursor: pointer;
   background-color: #1D9BF0;
   color: #E7E9EA;
-  padding: 7px 12px;
+  padding: 10px 15px;
   border-radius: 20px;
   border: none;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 .--footerImage {
@@ -146,7 +237,20 @@
   margin-top: 35px;
 }
 
+.--tweetsViewSendTweet {
+  width: 50px;
+  height: 50px;
+  border-radius: 55px;
+}
+
+.--tweetsSenderPhoto {
+  width: 50px;
+  height: 50px;
+  border-radius: 55px;
+}
+
 .--sendTweet {
+  margin-top: 10px;
   width: 100%;
   background: none;
   border: none;
@@ -175,6 +279,7 @@
   -webkit-appearance: none;
   background: none;
   border: none;
+  font-family: "Roboto", "FontAwesome";
 }
 .--postTweetSelect:focus {
   outline: none;
@@ -191,7 +296,9 @@
 body {
   padding: 0;
   background-color: #000000;
+  font-family: "Roboto";
 }
 body .container {
   margin: 0px 150px;
+  display: flex;
 }/*# sourceMappingURL=main.css.map */

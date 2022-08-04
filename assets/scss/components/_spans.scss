@@ -11,3 +11,21 @@
 .--sideBarFooterUserName{
     color: $sideBarUserInfoSpan;
 }
+
+//tweetsView
+.--tweetsSenderName{
+    color: $sideBarIcons;
+    font-weight: 600;
+}
+
+.--tweetsSenderUserName{
+    color: $sideBarUserInfoSpan;
+}
+
+.--tweetsSenderTime{
+    color: $sideBarUserInfoSpan;
+}
+
+.--tweetsSenderContent{
+    color: $sideBarIcons;
+}

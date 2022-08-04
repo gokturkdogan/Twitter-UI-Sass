@@ -1,6 +1,7 @@
 @import 'variables/colors';
 @import 'layout/sideBar';
 @import 'layout/postTweet';
+@import 'layout/tweetsView';
 @import 'components/icons';
 @import 'components/spans';
 @import 'components/buttons';
@@ -11,7 +12,9 @@
 body{
     padding: 0;
     background-color: $mainBg;
+    font-family: 'Roboto';
     .container{
         margin: 0px 150px;
+        display: flex;
     }
 }

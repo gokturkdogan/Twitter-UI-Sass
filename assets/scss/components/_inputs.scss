@@ -23,8 +23,20 @@
     background: none;
     border: none;
     font-family: 'Roboto', 'FontAwesome';
-
     &:focus {
         outline: none;
+    }
+}
+
+.--flowSearch{
+    background: none;
+    border: none;
+    margin-left: 20px;
+    &:focus {
+        outline: none;
+    }
+    &::placeholder {
+        color: $sideBarUserInfoSpan;
+        font-size: 15px;
     }
 }

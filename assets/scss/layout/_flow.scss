@@ -1,0 +1,64 @@
+.flow {
+    border-left: 1px solid $sideBarUserInfoSpan;
+    width: 30%;
+    padding-left: 25px;
+
+    &__header {}
+
+    &__search {
+        background-color: $flowHeaderBg;
+        padding: 13px 20px;
+        border-radius: 25px;
+        border: 1px solid $flowHeaderBg;
+    }
+
+    &__agenda {
+        background-color: $flowHeaderBg;
+        padding-top: 5px;
+        margin-top: 10px;
+        border-radius: 15px;
+    }
+
+    &__agendaTitle {
+        color: $sideBarIcons;
+        padding: 0px 20px;
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 20px;
+        transition: 0.2s;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $flowItemHover;
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 55px;
+    }
+
+    &__icon {}
+
+    &__showMore {
+        padding: 10px 20px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        cursor: pointer;
+        transition: 0.2s;
+
+        &:hover {
+            background-color: $flowItemHover;
+        }
+    }
+}

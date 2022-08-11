@@ -135,6 +135,58 @@
   display: flex;
   justify-content: space-between;
 }
+.flow {
+  border-left: 1px solid #71767B;
+  width: 30%;
+  padding-left: 25px;
+}
+.flow__search {
+  background-color: #202327;
+  padding: 13px 20px;
+  border-radius: 25px;
+  border: 1px solid #202327;
+}
+.flow__agenda {
+  background-color: #202327;
+  padding-top: 5px;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+.flow__agendaTitle {
+  color: #E7E9EA;
+  padding: 0px 20px;
+}
+.flow__body {
+  display: flex;
+  flex-direction: column;
+}
+.flow__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.flow__item:hover {
+  background-color: #2c2f33;
+}
+.flow__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 55px;
+}
+.flow__showMore {
+  padding: 10px 20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.flow__showMore:hover {
+  background-color: #2c2f33;
+}
+
 .--sideBarHeaderIcon {
   color: #E7E9EA;
   font-size: 30px;
@@ -168,6 +220,15 @@
   color: #71767B;
 }
 
+.--flowSearchIcon {
+  color: #676C70;
+  font-size: 17px;
+}
+
+.--agendaItemIcon {
+  color: #676C70;
+}
+
 .--sideBarMenuSpan {
   color: #E7E9EA;
   margin-left: 20px;
@@ -196,6 +257,27 @@
 
 .--tweetsSenderContent {
   color: #E7E9EA;
+}
+
+.--agendaTitle {
+  color: #676C70;
+  font-size: 12px;
+}
+
+.--agendaHashTag {
+  color: #E7E9EA;
+  font-weight: 600;
+}
+
+.--agentaTweetCount {
+  color: #676C70;
+  font-size: 12px;
+}
+
+.--flowShowMore {
+  color: #1D9BF0;
+  font-weight: 300;
+  font-size: 14px;
 }
 
 .--sideBarBtn {
@@ -285,12 +367,38 @@
   outline: none;
 }
 
+.--flowSearch {
+  background: none;
+  border: none;
+  margin-left: 20px;
+}
+.--flowSearch:focus {
+  outline: none;
+}
+.--flowSearch::-moz-placeholder {
+  color: #71767B;
+  font-size: 15px;
+}
+.--flowSearch:-ms-input-placeholder {
+  color: #71767B;
+  font-size: 15px;
+}
+.--flowSearch::placeholder {
+  color: #71767B;
+  font-size: 15px;
+}
+
 .--active {
   display: block;
 }
 
 .--bluur {
   background-color: #242D34;
+}
+
+.--flowSearchFocus {
+  border: 1px solid #1D9BF0;
+  background-color: #000000;
 }
 
 body {

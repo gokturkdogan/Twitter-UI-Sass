@@ -195,10 +195,37 @@
 .flow__showMore:hover {
   background-color: #2c2f33;
 }
+.flow__followPerson {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.flow__followPerson:hover {
+  background-color: #2c2f33;
+}
+.flow__personInfo {
+  margin-left: 10px;
+  padding-top: 5px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
 
 .--sideBarHeaderIcon {
   color: #E7E9EA;
   font-size: 30px;
+  padding: 10px;
+  border-radius: 55px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.--sideBarHeaderIcon:hover {
+  background-color: #202327;
 }
 
 .--sideBarMenuIcon {
@@ -317,6 +344,22 @@
   letter-spacing: 0.5px;
 }
 
+.--followButton {
+  background-color: #E7E9EA;
+  font-size: 13px;
+  font-weight: 600;
+  height: 35px;
+  width: 100px;
+  padding: 0px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid #000000;
+  transition: 0.2s;
+}
+.--followButton:hover {
+  background-color: #cacccd;
+}
+
 .--footerImage {
   width: 40px;
   height: 40x;
@@ -340,6 +383,13 @@
   width: 50px;
   height: 50px;
   border-radius: 55px;
+}
+
+.--hoverBluur {
+  transition: 0.2s;
+}
+.--hoverBluur:hover {
+  opacity: 70%;
 }
 
 .--sendTweet {

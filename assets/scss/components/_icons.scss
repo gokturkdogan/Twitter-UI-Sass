@@ -2,6 +2,14 @@
 .--sideBarHeaderIcon{
     color: $sideBarIcons;
     font-size: 30px;
+    padding: 10px;
+    border-radius: 55px;
+    width: fit-content;
+    cursor: pointer;
+    transition: 0.2s;
+    &:hover{
+        background-color: $flowHeaderBg;
+    }
 }
 
 .--sideBarMenuIcon{

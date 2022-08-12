@@ -24,3 +24,20 @@
     font-weight: 600;
     letter-spacing: 0.5px;
 }
+
+//flowButtons
+.--followButton{
+    background-color: $sideBarIcons;
+    font-size: 13px;
+    font-weight: 600;
+    height: 35px;
+    width: 100px;
+    padding: 0px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid $mainBg;
+    transition: 0.2s;
+    &:hover{
+        background-color: $followButtonHOver;
+    }
+}

@@ -84,7 +84,6 @@
 }
 
 .tweets {
-  width: 50%;
   padding: 0px 10px;
 }
 .tweets__header {
@@ -148,6 +147,7 @@
   border-left: 1px solid #71767B;
   width: 30%;
   padding-left: 25px;
+  padding-right: 150px;
 }
 .flow__search {
   background-color: #202327;
@@ -318,6 +318,12 @@
   font-size: 14px;
 }
 
+.--followPerson {
+  color: #E7E9EA;
+  font-weight: 600;
+  font-size: 13px;
+}
+
 .--sideBarBtn {
   cursor: pointer;
   background-color: #1D9BF0;
@@ -462,12 +468,18 @@
   background-color: #000000;
 }
 
+.scrool {
+  display: flex;
+  overflow-y: scroll;
+  height: 700px;
+}
+
 body {
   padding: 0;
   background-color: #000000;
   font-family: "Roboto";
 }
-body .container {
-  margin: 0px 150px;
+body .containere {
+  margin-left: 150px;
   display: flex;
 }/*# sourceMappingURL=main.css.map */

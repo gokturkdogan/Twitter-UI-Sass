@@ -10,3 +10,9 @@
     border: 1px solid $sideBarButton;
     background-color: $mainBg;
 }
+
+.scrool{
+    display: flex;
+    overflow-y: scroll;
+    height: 700px;
+}

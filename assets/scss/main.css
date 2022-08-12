@@ -19,6 +19,15 @@
   width: 70%;
   height: 450px;
 }
+.sideBar__item {
+  border-radius: 35px;
+  padding: 10px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.sideBar__item:hover {
+  background-color: #202327;
+}
 .sideBar__footer {
   padding-right: 10px;
   margin-top: 60px;
@@ -232,6 +241,8 @@
 .--sideBarMenuSpan {
   color: #E7E9EA;
   margin-left: 20px;
+  font-weight: 500;
+  font-size: 17px;
 }
 
 .--sideBarFooterUser {

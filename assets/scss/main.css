@@ -90,8 +90,14 @@
   display: flex;
   justify-content: space-between;
   color: #E7E9EA;
+  position: fixed;
+  top: 0px;
+  width: 37%;
+  background-color: #000000;
+  padding-right: 10px;
 }
 .tweets__sendTweet {
+  margin-top: 70px;
   border-bottom: 1px solid #71767B;
   padding-bottom: 10px;
   height: 100px;
@@ -231,6 +237,7 @@
 .--sideBarMenuIcon {
   color: #E7E9EA;
   font-size: 25px;
+  cursor: pointer;
 }
 
 .--sideBarFooterIcon {
@@ -238,31 +245,38 @@
   margin-right: 10px;
   color: #E7E9EA;
   font-size: 15px;
+  cursor: pointer;
 }
 
 .--postTweetCloseIcon {
   color: #E7E9EA;
+  cursor: pointer;
 }
 
 .--postTweetIcon {
   color: #1D9BF0;
+  cursor: pointer;
 }
 
 .--tweetsHeaderIcon {
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .--tweetsReactionIcon {
   color: #71767B;
+  cursor: pointer;
 }
 
 .--flowSearchIcon {
   color: #676C70;
   font-size: 17px;
+  cursor: pointer;
 }
 
 .--agendaItemIcon {
   color: #676C70;
+  cursor: pointer;
 }
 
 .--sideBarMenuSpan {
@@ -377,18 +391,33 @@
   height: 50px;
   border-radius: 55px;
   margin-top: 35px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.--postTweetImage:hover {
+  opacity: 70%;
 }
 
 .--tweetsViewSendTweet {
   width: 50px;
   height: 50px;
   border-radius: 55px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.--tweetsViewSendTweet:hover {
+  opacity: 70%;
 }
 
 .--tweetsSenderPhoto {
   width: 50px;
   height: 50px;
   border-radius: 55px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.--tweetsSenderPhoto:hover {
+  opacity: 70%;
 }
 
 .--hoverBluur {
@@ -471,7 +500,7 @@
 .scrool {
   display: flex;
   overflow-y: scroll;
-  height: 700px;
+  height: 690px;
 }
 
 body {

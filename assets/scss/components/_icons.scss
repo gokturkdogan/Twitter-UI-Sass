@@ -14,7 +14,8 @@
 
 .--sideBarMenuIcon{
     color: $sideBarIcons;
-    font-size: 25px;   
+    font-size: 25px;  
+    cursor: pointer; 
 }
 
 .--sideBarFooterIcon{
@@ -22,31 +23,38 @@
     margin-right: 10px;
     color: $sideBarIcons;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .--postTweetCloseIcon{
     color: $sideBarIcons;
+    cursor: pointer;
 }
 
 .--postTweetIcon{
     color: $sideBarButton;
+    cursor: pointer;
 }
 
 //tweetsView
 .--tweetsHeaderIcon{
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .--tweetsReactionIcon{
     color: $sideBarUserInfoSpan;
+    cursor: pointer;
 }
 
 //flow
 .--flowSearchIcon{
     color: $flowSearchIcon;
     font-size: 17px;
+    cursor: pointer;
 }
 .--agendaItemIcon{
     color: $flowSearchIcon;
+    cursor: pointer;
 }
 

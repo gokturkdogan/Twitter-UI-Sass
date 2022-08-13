@@ -12,6 +12,7 @@
 
 .--sideBarFooterUserName{
     color: $sideBarUserInfoSpan;
+    cursor: pointer;
 }
 
 //tweetsView
@@ -54,6 +55,25 @@
     color: $sideBarIcons;
     font-weight: 600;
     font-size: 13px;
+}
+//tweetsDropDown
+.--tweetsDropTitle{
+    font-size: 15px;
+    font-weight: 400;
+    color: $sideBarIcons;
+}
+.--dropCount{
+    font-size: 15px;
+    font-weight: 600;
+    color: $sideBarIcons;
+    cursor: pointer;
+}
+.--dropFollow{
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 300;
+    color: $sideBarUserInfoSpan;
+    cursor: pointer;
 }
 
 //messages

@@ -6,7 +6,7 @@
         color: $sideBarIcons;
         position: fixed;
         top: 0px;
-        width: 37%;
+        width: 34%;
         background-color: $mainBg;
         padding-right: 10px;
     }
@@ -54,7 +54,46 @@
         display: flex;
     }
     &__senderPhoto{
+        position: relative;
+        display: inline-block;
+        &:hover .--dropDown{
+            display: block;
+        }
+    }
+    &__dropDown{
+        width: 270px;
+        height: 160px;
+        border-radius: 10px;
+        padding: 10px;
+        position: absolute;
+        background-color: $mainBg;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: -2px -1px 15px -4px rgba(255,250,255,1);
+        z-index: 1;
+    }
+    &__dropPhoto{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__dropInfo{
+        display: flex;
+        flex-direction: column;
+    }
+    &__dropDesc{
 
+    }
+    &__dropFollows{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+    &__dropFollowCount{
+        display: flex;
+    }
+    &__dropFollowers{
+        display: flex;
     }
     &__tweetContent{
         margin-left: 15px;

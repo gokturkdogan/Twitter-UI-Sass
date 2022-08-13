@@ -4,7 +4,13 @@
     padding-left: 25px;
     padding-right: 150px;
 
-    &__header {}
+    &__header {
+        background-color: $mainBg;
+        width: 21%;
+        position: fixed;
+        top: 0;
+        padding: 5px 0px;
+    }
 
     &__search {
         background-color: $flowHeaderBg;
@@ -16,7 +22,7 @@
     &__agenda {
         background-color: $flowHeaderBg;
         padding-top: 5px;
-        margin-top: 10px;
+        margin-top: 60px;
         border-radius: 15px;
     }
 
